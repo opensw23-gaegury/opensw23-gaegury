@@ -13,19 +13,19 @@
 - this is topic introduction  
 ## Results
 ---
-– this is results  
+- this is results  
 
 
 ## Analysis/Visualization    
 ---  
-– this is Analysis  
+- this is Analysis  
 
 
 ## Installation  
 ---  
-– this is installation  
+- this is installation  
 
 
 ## Presentation  
 ---  
-– this is presentation video link  
+- this is presentation video link  
