@@ -1,2 +1,2 @@
 data
-conf_mgt/*.pyc
+conf_mgt/**/*.pyc
