@@ -1,2 +1,2 @@
 data
-conf_mgt/__pycache__
+conf_mgt/__pycache__/*.pyc
