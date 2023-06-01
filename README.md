@@ -10,9 +10,9 @@
 
 ## Topic Introduction  
 ---
-- this is topic introduction  
-## Results
----
+- 이미지의 noise 나 가려진 부분들을 주변 정보를 학습하여 다시 그려준다   
+## Results  
+---  
 - this is results  
 
 
