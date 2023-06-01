@@ -29,15 +29,15 @@ Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖�
 ## Results  
 ---  
 - Input Image  
-  ![KakaoTalk_20230531_223008127](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1bde6a5e-0f68-419c-81ea-f2ddc7e00517)
+  ![KakaoTalk_20230531_223008127](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1bde6a5e-0f68-419c-81ea-f2ddc7e00517)  
   
-- Results (t_T : 250, jump_n_sample : 10) 8hours
-  ![KakaoTalk_20230531_222857692](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1d604b78-361b-48b9-ac1d-89907a761dbc)
+- Results (t_T : 250, jump_n_sample : 10) 8hours  
+  ![KakaoTalk_20230531_222857692](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1d604b78-361b-48b9-ac1d-89907a761dbc)  
   ![KakaoTalk_20230531_222857775](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/5485a51f-9ccb-4cf2-a5fa-6110ec39beed)
   ![KakaoTalk_20230531_222857870](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/7c0af7f8-737e-405a-8efe-26eb5e0ef826)
   ![KakaoTalk_20230531_222857952](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/c9c6262e-6123-446d-b5b3-6932e955ae42)
   
-- results (t_T : 150, jump_n_sample : 5) 2hours
+- results (t_T : 150, jump_n_sample : 5) 2hours  
   ![000000](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/127182180/f65b4b1a-99fb-48d1-9e15-fcf12eff75bd)
 
 
