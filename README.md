@@ -24,17 +24,20 @@
 ## Installation  
 ---
 - 설치 방법
-
-  git clone https://github.com/andreas128/RePaint.git
-  
+```c
+  git clone https://github.com/opensw23-gaegury/opensw23-gaegury
+```
+```c
   pip install numpy torch blobfile tqdm pyYaml pillow     
-
+```
+```c
   pip install --upgrade gdown && bash ./download.sh  
+```
 
 - 실행 방법   
-
-> python test.py --conf_path confs/face_example.yml  
-
+```c
+  python test.py --conf_path confs/face_example.yml  
+```
 
 ## Presentation  
 ---  
