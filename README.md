@@ -16,8 +16,8 @@
   그 방법들이 다양한 종류의 mask를 다루거나 빈 곳을 채울 수 있어야 한다.   
 
   기존의 GAN기반 혹은 autoregressive 모델들은 mask의 분포에 대해서 학습을 진행해 그 다양한 종류에 대한 일반화가 거의 충족되지 않았다.   
-그러나 Repaint는 unconditional하게 학습된 기존 DDPM(Denoising, Diffusion Probabilistic Models)만을 활용하여 
-특정 mask에 의존하는 학습 없이도 다양하고 품질이 좋은 이미지를 생성해낸다.  
+그러나 Repaint는 unconditional하게 학습된 기존 DDPM(Denoising, Diffusion Probabilistic Models)만을 활용하여 특정 mask에 의존하는 학습 없이도 다양하고 품질이 좋은 이미지를 생성해낸다.  
+
 Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖는다.  
 
 > 1. 신경망이 어떠한 mask에 대해서도 일반화가 가능하다.
