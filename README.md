@@ -59,6 +59,9 @@ Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖�
 ```
 ```c
   pip install --upgrade gdown && bash ./download.sh  
+  다운로드 안될 시
+  https://drive.google.com/uc?id=1norNWWGYP3EZ_o05DmoW1ryKuKMmhlCX  다운로드 후  
+  data/pretrained/<다운로드한 pt파일> 위치시킬 것
 ```
 
 - 실행 방법   
