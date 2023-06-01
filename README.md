@@ -23,13 +23,17 @@
 
 ## Installation  
 ---
--- 설치 방법    
+-- 설치 방법
+
 > git clone https://github.com/andreas128/RePaint.git
-> pip install numpy torch blobfile tqdm pyYaml pillow    # e.g. torch 1.7.1+cu110.
-> pip install --upgrade gdown && bash ./download.sh
+  
+> pip install numpy torch blobfile tqdm pyYaml pillow    # e.g. torch 1.7.1+cu110.  
+
+> pip install --upgrade gdown && bash ./download.sh  
 
 -- 실행 방법   
-> python test.py --conf_path confs/face_example.yml
+
+> python test.py --conf_path confs/face_example.yml  
 
 
 ## Presentation  
