@@ -23,7 +23,7 @@
 
 ## Installation  
 ---
--- 설치 방법
+- 설치 방법
 
 > git clone https://github.com/andreas128/RePaint.git
   
@@ -31,7 +31,7 @@
 
 > pip install --upgrade gdown && bash ./download.sh  
 
--- 실행 방법   
+- 실행 방법   
 
 > python test.py --conf_path confs/face_example.yml  
 
