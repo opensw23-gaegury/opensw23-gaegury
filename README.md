@@ -10,9 +10,9 @@
 
 ## Topic Introduction  
 ---
-- this is topic introduction  
-## Results
----
+- 이미지의 noise 나 가려진 부분들을 주변 정보를 학습하여 다시 그려준다   
+## Results  
+---  
 - this is results  
 
 
@@ -22,9 +22,22 @@
 
 
 ## Installation  
----  
-- this is installation  
+---
+- 설치 방법
+```c
+  git clone https://github.com/opensw23-gaegury/opensw23-gaegury
+```
+```c
+  pip install numpy torch blobfile tqdm pyYaml pillow     
+```
+```c
+  pip install --upgrade gdown && bash ./download.sh  
+```
 
+- 실행 방법   
+```c
+  python test.py --conf_path confs/face_example.yml  
+```
 
 ## Presentation  
 ---  
