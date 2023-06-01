@@ -10,9 +10,9 @@
 
 ## Topic Introduction  
 ---
-- 이미지의 빠진 영역을 채우는 Image inpainting은 자연스러움이 중요시 되는 만큼, 그 방법들이 다양한 종류의 mask를 다루거나 빈 곳을 채울 수 있어야 한다.
+- Image inpainting은 디지털 이미지 처리 기술의 일종으로, 손상된 이미지 영역을 복원하거나, 삭제된 부분을 채워준다. 하지만 이 방법에는 문제점들이 있는데, 먼저 특정 마스크 분포에 대해 학습하므로, 마스크 패턴에 대해 일반화하는데 어려움을 겪어 새로운 마스크 패턴에 대해서는 적절하지 않은 결과를 초래한다. 또, 사람의 얼굴 영역을 복구하는 경우에도 눈, 코, 입 등의 위치가 일관되지 않거나, 배경과 부자연스럽게 블렌딩되는 문제가 발생하는 등 의미론적인 일관성을 유지하는 데 어려움을 겪기도 한다. 이미지의 빠진 영역을 채우는 Image inpainting은 자연스러움이 중요시 되는 만큼, 그 방법들이 다양한 종류의 mask를 다루거나 빈 곳을 채울 수 있어야 한다.
   기존의 GAN기반 혹은 autoregressive 모델들은 mask의 분포에 대해서 학습을 진행해 그 다양한 종류에 대한 일반화가 거의 충족되지 않았다. 
-  그러나 Repaint는 unconditional하게 학습된 기존 DDPM(Denoising, Diffusion Probabilistic Models)만을 활용하여 특정 mask에 의존하는 학습 없이도 다양하고 품질이 좋은 dl   미지를 생성해낸다. Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖는다.
+  그러나 Repaint는 unconditional하게 학습된 기존 DDPM(Denoising, Diffusion Probabilistic Models)만을 활용하여 특정 mask에 의존하는 학습 없이도 다양하고 품질이 좋은 이미지를 생성해낸다. Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖는다.
 
   1. 신경망이 어떠한 mask에 대해서도 일반화가 가능하다.
   2. 강력한 DDPM 이미지 합성 prior가 있으므로 더 의미론적인 생성을 학습할 수 있게 한다.
