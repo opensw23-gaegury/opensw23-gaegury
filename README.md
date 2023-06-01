@@ -25,11 +25,11 @@
 ---
 - 설치 방법
 
-> git clone https://github.com/andreas128/RePaint.git
+  git clone https://github.com/andreas128/RePaint.git
   
-> pip install numpy torch blobfile tqdm pyYaml pillow    # e.g. torch 1.7.1+cu110.  
+  pip install numpy torch blobfile tqdm pyYaml pillow     
 
-> pip install --upgrade gdown && bash ./download.sh  
+  pip install --upgrade gdown && bash ./download.sh  
 
 - 실행 방법   
 
