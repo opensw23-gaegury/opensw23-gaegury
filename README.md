@@ -54,6 +54,12 @@
   python test.py --conf_path confs/face_example.yml  
 ```
 
+- to get more pretrained model  
+```c
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_classifier.pt # Trained by OpenAI  
+wget https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.pt # Trained by OpenAI  
+```
+
 ## Presentation  
 ---  
 - this is presentation video link  
