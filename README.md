@@ -20,10 +20,10 @@
   표준 DDPM 샘플링 방법이 종종 의미상 올바르지 않은 이미지를 생성하는 것을 보완하기 위해 resampling에 개선된 denoising 전략이 도입됐다. 비록 diffusion process가 느려    지는 단점이 있지만, forward와 backward를 동시에 진행하여 의미론적으로 맞는 이미지를 생성할 수 있게 된다.  
 ## Results  
 ---  
-- Input Image
+- Input Image  
   ![KakaoTalk_20230531_223008127](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1bde6a5e-0f68-419c-81ea-f2ddc7e00517)
   
-- Results
+- Results  
   ![KakaoTalk_20230531_222857692](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/1d604b78-361b-48b9-ac1d-89907a761dbc)
   ![KakaoTalk_20230531_222857775](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/5485a51f-9ccb-4cf2-a5fa-6110ec39beed)
   ![KakaoTalk_20230531_222857870](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/7c0af7f8-737e-405a-8efe-26eb5e0ef826)
