@@ -78,14 +78,14 @@ Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖�
 
 - 실행 팁
 > confs/face_example.yml 내부에 t_T 값을 낮추고, jump_n_sample 값을 낮추는 것으로 실행 속도를 올릴 수 있음  
-
+> 
 > Apply another exmample
-
+> 
 > ./confs/face_example.yml 파일에서 
-'''c
+```c
       gt_path: ./data/datasets/gts/face  //gts폴더에 example 들어간 폴더 생성 후 face폴더 대신 해당 폴더명 작성 
       mask_path: ./data/datasets/gt_keep_masks/face   //example에 대응하는 폴더를 gt_keep_masks에서 찾아서 face폴더 대신 작성
-'''
+```
 
 - to get more pretrained model  
 ```c
