@@ -68,7 +68,11 @@ Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖�
   pip install --upgrade gdown && bash ./download.sh  
   다운로드 안될 시
   https://drive.google.com/uc?id=1norNWWGYP3EZ_o05DmoW1ryKuKMmhlCX  다운로드 후  
-  data/pretrained/<다운로드한 pt파일> 위치시킬 것
+  data/pretrained/<다운로드한 pt파일> 위치시키고
+  
+  https://drive.google.com/uc?id=1Q_dxuyI41AAmSv9ti3780BwaJQqwvwMv 다운로드 후 zip 파일 압축해체한것을  
+  datasets 폴더를 아래와 같이 위치시켜야함  
+  data/datasets
 ```
 
 - 실행 방법   
