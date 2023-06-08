@@ -26,7 +26,7 @@ Repaint는 inpainting mask 자체를 학습하지 않아 2가지 이점을 갖�
 ---  
 - Test case  
 input image on Building : 2  
-input image on face : 1 -> failed to get good results  
+input image on face : 1 -> failed to get good results  (sample had good mask matches the mask image but our data didn't match the mask image)  
 ![KakaoTalk_20230608_162142445](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/90510391/0b769ed1-2904-4902-8baf-3beb1ef718f5)
 
 
@@ -40,8 +40,8 @@ input image on face : 1 -> failed to get good results
 >>> 2-2. resampling 과정중에는 Gaussian noise 제거를 t_T 번 실행합니다.
 >> 3. 이런 과정을 반복하여 이미지를 다시 그려줍니다.  
 > 결과물은 resampling 10회 이상에서 유의미한 결과를 나온다고 말하지만, 기존 sample data 에서 5번의 resampling 과정을 통해서도 유의미한 결과를 만들어 낸 것을 확인할 수 있었습니다. 또한, 다음의 조건들을 만족할 수록 결과물이 더 잘 나온 것을 확인할 수 있었습니다.
-> **1) mask 형태에 대한 이미지가 얼마나 기존 이미지의 mask와 정확한 경우**
-> **2) 기존 이미지에 색변화가 많지 않은 경우 **
+> **1) mask 형태에 대한 이미지가 얼마나 기존 이미지의 mask와 정확한 경우**  
+> **2) 기존 이미지에 색변화가 많지 않은 경우 **  
 
 
 ## Installation  
