@@ -40,29 +40,28 @@ input image on face : 1 -> failed to get good results  (sample had good mask mat
 >>> 2-2. resampling 과정중에는 Gaussian noise 제거를 t_T 번 실행합니다.
 >> 3. 이런 과정을 반복하여 이미지를 다시 그려줍니다.  
 > 결과물은 resampling 10회 이상에서 유의미한 결과를 나온다고 말하지만, 기존 sample data 에서 5번의 resampling 과정을 통해서도 유의미한 결과를 만들어 낸 것을 확인할 수 있었습니다. 또한, 다음의 조건들을 만족할 수록 결과물이 더 잘 나온 것을 확인할 수 있었습니다.  
-> **1) mask 형태에 대한 이미지가 얼마나 기존 이미지의 mask와 정확한 경우**  
-> **2) 기존 이미지에 색변화가 많지 않은 경우**  
-
+**1) mask 형태에 대한 이미지가 얼마나 기존 이미지의 mask와 일치한 경우**  
+**2) 기존 이미지에 색변화가 많지 않은 경우**     
 
 ## Installation  
 ---
 - 설치 방법
 ```c
-  git clone https://github.com/opensw23-gaegury/opensw23-gaegury
+  1. git clone https://github.com/opensw23-gaegury/opensw23-gaegury
 ```
 ```c
-  pip install numpy torch blobfile tqdm pyYaml pillow     
+  2. pip install numpy torch blobfile tqdm pyYaml pillow     
 ```
 ```c
-  pip install --upgrade gdown && bash ./download.sh  
+  3. pip install --upgrade gdown && bash ./download.sh  
   다운로드 안될 시
   https://drive.google.com/uc?id=1norNWWGYP3EZ_o05DmoW1ryKuKMmhlCX  다운로드 후  
   data/pretrained/<다운로드한 pt파일> 위치시키고
   
   https://drive.google.com/uc?id=1Q_dxuyI41AAmSv9ti3780BwaJQqwvwMv 다운로드 후 zip 파일 압축해체한것을  
   datasets 폴더를 아래와 같이 위치시켜야함  
-  data/datasets
-```
+  data/datasets  
+```  
 
 - 실행 방법   
 ```c
@@ -89,7 +88,7 @@ https://openaipublic.blob.core.windows.net/diffusion/jul-2021/256x256_diffusion.
 
 ## Presentation  
 ---  
-- https://youtu.be/sDEQnY4nacU  
+{% include video id="sDEQnY4nacU" provider="youtube" %}
 
 
 ## References  
