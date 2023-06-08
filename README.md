@@ -11,8 +11,9 @@
 ---
 ### About Image Inpainting
 __Image inpainting__ 은 디지털 이미지 처리 기술의 일종으로 이미지에서 손실된 부분을 시각적 및 의미적으로 그럴듯한 요소로 채워 복원한다.    
+![KakaoTalk_20230608_225753765](https://github.com/opensw23-gaegury/opensw23-gaegury/assets/127182180/e91b82c9-dc5c-488f-bb52-162319605a8d)  
 
-![image](https://github.com/hwon820/B.Joon_Archiving/assets/90510391/14a1c037-f160-4199-962c-e4ed93ecc94f)    
+
 ###### Reference: Ang Li, Jianzhong Qi(2019), 『Boosted GAN with Semantically Interpretable Information for Image Inpainting』, IJCNN    
 
 다양한 방법으로 발전되어온 이 기술엔 몇가지 문제점이 존재한다.   
